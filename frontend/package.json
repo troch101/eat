@@ -1,0 +1,39 @@
+{
+  "name": "minicook-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MiniCook 微信小程序前端，基于 Taro、React 与 TypeScript 构建。",
+  "scripts": {
+    "dev:weapp": "taro build --type weapp --watch",
+    "build:weapp": "taro build --type weapp",
+    "lint": "eslint eslint.config.mjs && tsc --noEmit",
+    "format": "prettier --write \"src/**/*.{ts,tsx,scss,json}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nutui/nutui-react-taro": "latest",
+    "@tarojs/components": "latest",
+    "@tarojs/helper": "latest",
+    "@tarojs/plugin-framework-react": "latest",
+    "@tarojs/plugin-platform-weapp": "latest",
+    "@tarojs/react": "latest",
+    "@tarojs/runtime": "latest",
+    "@tarojs/taro": "latest",
+    "@tanstack/react-query": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "zustand": "latest"
+  },
+  "devDependencies": {
+    "@tarojs/cli": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "prettier": "latest",
+    "typescript": "latest"
+  }
+}
